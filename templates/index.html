@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holistic Healthcare System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="">HOME</a>
+            <a href="">DISEASE</a>
+            <a href="PastPredictions.html">PAST PREDICTIONS</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="Contact.html">CONTACT US</a>
+        </nav>
+    </header>
+
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/hdd.jpg">
+                <div class="content">
+                    <div class="author"></div>
+                    <div class="title">Kidney</div>
+                    <div class="topic">disease</div>
+                    <div class="des">
+                        Detecting kidney issues early is critical for successful treatment and management.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button onclick="window.location.href = 'http://127.0.0.1:5000/kidney';">Start Detection</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/cancer.jpg">
+                <div class="content">
+                    <div class="author"></div>
+                    <div class="title">Chat</div>
+                    <div class="topic">Bot</div>
+                    <div class="des">
+                        Get your query answered with MedicalGPT
+                    </div>
+                    <div class="buttons">
+                        <button >SEE MORE</button>
+                        <button>Start Detection</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/Liver.jpg">
+                <div class="content">
+                    <div class="author"></div>
+                    <div class="title">Liver</div>
+                    <div class="topic">disease</div>
+                    <div class="des">
+                        Liver detection refers to the process of identifying abnormalities or diseases affecting the
+                        liver. It involves various methods such as imaging tests (ultrasound, CT scans), blood tests to
+                        measure liver enzymes, and biopsies for confirmation.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button onclick="window.location.href = 'http://127.0.0.1:5000/liver';">Start Detection</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/kidney.jpeg">
+                <div class="content">
+                    <div class="title">
+                        Kidney
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/cancer.jpg">
+                <div class="content">
+                    <div class="title">
+                        MedicalGpt
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/Liver.jpg">
+                <div class="content">
+                    <div class="title">
+                        Liver
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"></button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
